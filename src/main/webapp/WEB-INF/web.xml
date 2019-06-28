@@ -1,0 +1,13 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>agenda</servlet-name>
+    <servlet-class>com.esliceu.agenda.AgendaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>agenda</servlet-name>
+    <url-pattern>/agenda</url-pattern>
+  </servlet-mapping>
+</web-app>
+
